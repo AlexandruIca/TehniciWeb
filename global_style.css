@@ -1,0 +1,9 @@
+/* Pentru pozitionare mai usoara */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    font-family: 'Roboto', sans-serif;
+}

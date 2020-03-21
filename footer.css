@@ -1,0 +1,27 @@
+#site #footer {
+    display: grid;
+    grid-template-columns: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    background-color: #444;
+}
+
+#site #footer p {
+    color: white;
+}
+
+#site #footer .col {
+    text-align: center;
+}
+
+#site #footer .follow-us {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#site #footer img {
+    margin-left: auto;
+    margin-right: auto;
+}
