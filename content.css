@@ -50,3 +50,8 @@
     font-weight: lighter;
     font-size: 2vw;
 }
+
+#main_content article > p {
+    text-align: center;
+    color: white;
+}
