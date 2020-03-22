@@ -21,18 +21,29 @@
     height: auto;
 }
 
+#main_content .image-text {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media only screen and (max-width: 992px) {
     #main_content .image img {
         max-width: 100%;
     }
+
+    #main_content .image-text {
+        top: 100px;
+    }
 }
 
-#main_content .image-text {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media only screen and (max-width: 600px) {
+    #main_content .image-text {
+        top: 80px;
+    }
 }
+
 
 #main_content .image-text > p {
     color: white;

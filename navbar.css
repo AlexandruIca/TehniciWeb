@@ -22,6 +22,12 @@
     padding: 10px 10px;
 }
 
+@media only screen and (max-width: 992px) {
+    #top_nav a {
+        font-size: 1em;
+    }
+}
+
 #top_nav > a:hover,
 #top_nav li > a:hover {
     background-color: #222;
@@ -46,7 +52,7 @@
     margin: 0;
     padding: 10px 10px;
     float: left;
-    display: inline-block;
+    display: block;
     height: auto;
 }
 
