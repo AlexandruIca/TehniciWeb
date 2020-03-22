@@ -21,6 +21,12 @@
     font-weight: bold;
 }
 
+@media only screen and (max-width: 992px) {
+    #site #footer .follow-us {
+        font-size: 0.8em;
+    }
+}
+
 #site #footer img {
     margin-left: auto;
     margin-right: auto;
