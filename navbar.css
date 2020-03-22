@@ -6,7 +6,7 @@
     background-color: #333;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: right;
 }
 
 @media only screen and (max-width: 992px) {
@@ -20,6 +20,7 @@
     color: #FFF;
     font-size: 1.5em;
     padding: 10px 10px;
+    margin: 0;
 }
 
 @media only screen and (max-width: 992px) {
@@ -28,7 +29,7 @@
     }
 }
 
-#top_nav > a:hover,
+#top_nav nav > a:hover,
 #top_nav li > a:hover {
     background-color: #222;
 }
