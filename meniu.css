@@ -12,14 +12,10 @@
 }
 
 @media only screen and (max-width: 992px) {
-    #main_content {
-        padding-top: 0px;
-    }
-
     #meniu_burgeri table,
     #meniu_bauturi table,
-    #meniu_altele {
-        width: 96vw;
+    #meniu_altele table {
+        width: 94vw;
     }
 }
 
@@ -67,6 +63,18 @@
 #meniu_bauturi table tr:nth-of-type(2n),
 #meniu_altele table tr:nth-of-type(2n) {
     background-color: #A8A8A8;
+}
+
+#meniu_burgeri table td:nth-of-type(2n),
+#meniu_bauturi table td:nth-of-type(2n),
+#meniu_altele table td:nth-of-type(2n) {
+    width: 25%;
+}
+
+#meniu_burgeri table td:nth-of-type(2n+1),
+#meniu_bauturi table td:nth-of-type(2n+1),
+#meniu_bauturi table td:nth-of-type(2n+1) {
+    width: 75%;
 }
 
 #meniu_burgeri table tr td > p.info,
