@@ -93,3 +93,8 @@
     height: 100%;
     object-fit: cover;
 }
+
+#main_content .gallery-outer {
+    display: flex;
+    justify-content: center;
+}

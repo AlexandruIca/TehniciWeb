@@ -1,0 +1,22 @@
+#main_content .location {
+    display: block;
+    width: 100%;
+}
+
+#main_content .figure {
+    display: block;
+    width: 100%;
+}
+
+#main_content .location img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+#main_content .location figure figcaption {
+    color: white;
+    text-align: center;
+}
