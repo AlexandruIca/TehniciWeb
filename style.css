@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+#website {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    background-color: #DDD;
+    margin: 0;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+#website .header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+    background-color: #DDD;
+}
+
+#website .header .normal-text,
+#website .header .highlight-text {
+    display: block;
+    margin: 0;
+    font-size: 2em;
+}
+
+#website .header .highlight-text {
+    color: #FC5A03;
+    font-weight: bold;
+}
+
+#website .header hr {
+    color: #FC5A03;
+    width: 100%;
+}
+
+#website .content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#website .content .disclaimer {
+    margin: 10px;
+    font-size: 1.8em;
+}
+
+#active-cases,
+#active-cases-today,
+#confirmed-cases,
+#confirmed-cases-today,
+#recovered-cases,
+#recovered-cases-today,
+#lost-cases,
+#lost-cases-today {
+    margin: 10px;
+    color: #FC5A03;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+#website .content .button {
+    background-color: #FC5A03;
+    color: #FFF;
+    font-size: 1.8em;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    width: 100%;
+}
+
+#website .content .button:hover {
+    background-color: #EB4902;
+}
+
+#each-day-table {
+    display: none;
+    align-self: center;
+    margin-left: 15px;
+}
+
+#rest-table {
+    display: none;
+    margin-left: 15px;
+}
+
+#each-day-table,
+#each-day-table th,
+#each-day-table td {
+    border: 1px solid #FC5A03;
+    border-collapse: collapse;
+}
+
+#each-day-table td {
+    text-align: right;
+}
+
+#rest-table,
+#rest-table th,
+#rest-table td {
+    border: 1px solid #FC5A03;
+    border-collapse: collapse;
+}
+
+#rest-table tr > td:nth-of-type(n + 3) {
+    text-align: right;
+}
+
+#website .footer {
+    background-color: #FC5A03;
+    color: #FFF;
+}
+
+#website .footer p {
+    text-align: center;
+}
+
+#website .footer a {
+    color: #FFF;
+}
